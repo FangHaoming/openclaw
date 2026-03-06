@@ -812,6 +812,8 @@ If the gateway container logs show either of these errors:
    docker compose up -d openclaw-gateway
    ```
 
+   Replace `18789` with your `OPENCLAW_GATEWAY_PORT` value if you changed the default.
+
    Then pull the latest repo (so the compose command includes `--allow-unconfigured`) and run `./docker-setup.sh` again, or keep the manual config and restart the gateway.
 
 ### Sandbox and permissions
